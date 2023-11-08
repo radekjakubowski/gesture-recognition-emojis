@@ -1,0 +1,1 @@
+export type GestureType = 'Thumb_Up' | 'Thumb_Down' | 'Victory' | 'Pointing_Up' | 'Closed_Fist' | 'None'

@@ -1,0 +1,6 @@
+<div class="d-flex gap-4">
+  <div *ngFor="let emoji of emojis$() | async" class="d-flex flex-column align-items-center">
+    <p class="display-2 emoji" [class.active]="emoji.bumped">{{ emoji.icon }}</p>
+    <p class="display-2">{{ emoji.counter }}</p>
+  </div>
+</div>

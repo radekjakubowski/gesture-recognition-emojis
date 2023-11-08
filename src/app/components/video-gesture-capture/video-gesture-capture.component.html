@@ -1,0 +1,7 @@
+
+<div class="d-flex align-items-center">
+  <div>
+    <video #video autoplay playsinline hidden (playing)="detectGestures()"></video>
+    <canvas #canvas id="output_canvas" [width]="videoSettings.width" [height]="videoSettings.height"></canvas>
+  </div>
+</div>
